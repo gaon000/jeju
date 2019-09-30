@@ -12,7 +12,7 @@ baseFolderAddr = "/home/gaon/excel"
 baseFolderAddrCctv = "/home/gaon/cctv"
 
 
-class dick(Resource):
+class aass(Resource):
 	def get(self):
 		global _row
 		global _column
@@ -129,7 +129,7 @@ class cctv(Resource):
 
 
 
-api.add_resource(dick, '/lamp')
+api.add_resource(aass, '/lamp')
 api.add_resource(cctv, '/cctv')
 
 
